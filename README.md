@@ -21,3 +21,4 @@ The goal of this project is to analyze sales data to find underperforming region
 **SQL Transition:** Created `analysis_queries.sql` to automate the search for "Profit Drains."
 - **Focus Area:** Isolated the "Furniture" category for deeper analysis due to high frequency of negative profit rows found in Excel.
 - **Discovery:** Expanded scope after finding negative profit trends in Appliances and Supplies in addition to Furniture. This suggests a systemic issue (like shipping costs or discount logic) rather than a single category error.
+- **SQL Optimization:** Transitioned from specific category filters to an Aggregate Query using GROUP BY and HAVING clauses. This allows the analysis to automatically capture every underperforming category regardless of name, ensuring no "revenue leakage" is missed.
