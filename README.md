@@ -20,3 +20,4 @@ The goal of this project is to analyze sales data to find underperforming region
 - **Note:** Ensured data integrity by preserving leading zeros in Product IDs during the import process.
 **SQL Transition:** Created `analysis_queries.sql` to automate the search for "Profit Drains."
 - **Focus Area:** Isolated the "Furniture" category for deeper analysis due to high frequency of negative profit rows found in Excel.
+- **Discovery:** Expanded scope after finding negative profit trends in Appliances and Supplies in addition to Furniture. This suggests a systemic issue (like shipping costs or discount logic) rather than a single category error.
